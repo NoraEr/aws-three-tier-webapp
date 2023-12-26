@@ -17,9 +17,9 @@ The architecture comprises a VPC with 2 availabilty zones, load balancers and au
 ![architecture](https://github.com/NoraEr/aws-three-tier-webapp/blob/main/architecture/three-tier-webapp-architecture.png)
 
 ## Deployment steps
-- Setup: Created S3 bucket. Uploaded code for the application into S3. Setup IAM role required by EC2 instance
-- Networking: Created a custom VPC with public and private subnets, internet gateway, NAT gateway, route tables and security groups
+- Setup: Created S3 bucket. Uploaded code for the application into S3. Setup IAM role required by EC2 instance.
+- Networking: Created a custom VPC with public and private subnets, internet gateway, NAT gateway, route tables and security groups.
 - Database Deployment: Deployed Amazon RDS MySQL Aurora database with a read replica for high availability. Configured instance by creating a database table.
 - Web server and application deployment: Configured EC2 instance via Session manager. Deployed EC2 instances using Amazon Machine Image (AMI). Attached the appropriate IAM role and security group.
-- Load balancing and auto-scaling: To maintain high availability, configured external and internal application load balancers. To ensure horizontal scalability, deployed auto-scaling groups with a minimum capacity of two instances.
+- Load balancing and auto-scaling: To maintain high availability, configured external and internal application load balancers. To ensure horizontal scalability, deployed auto-scaling groups with a minimum capacity of two instances in the web and application layers.
 
