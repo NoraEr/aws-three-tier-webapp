@@ -1,7 +1,7 @@
 # AWS Three Tier Web Application
 I deployed a three tier web application in AWS following this [workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/85cd2bb2-7f79-4e96-bdee-8078e469752a/en-US/introduction/getting-started).
 ## Demo
-![demo](https://github.com/NoraEr/aws-three-tier-webapp/blob/main/Demo/AWS_three_tier_webapp_demo.mp4)
+https://github.com/NoraEr/aws-three-tier-webapp/blob/main/Demo/AWS_three_tier_webapp_demo.mp4
 
 ## Architecture overview 
 The architecture comprises a VPC with 2 availabilty zones, load balancers and autoscaling group to maintain high availability. The web server is deployed within EC2 instances in a public subnet with access to the internet via Internet Gateway. The application layer and database sits within a private subnet. The application has access to the internet via NAT Gateway. The database is only accessible via the application layer by configuring its security group.
