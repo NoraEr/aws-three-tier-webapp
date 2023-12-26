@@ -1,4 +1,4 @@
-# Deploying AWS Three-Tier Web Application
+# Deploying Three-Tier Web Application in AWS
 I deployed a three-tier web application in AWS based on this [workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/85cd2bb2-7f79-4e96-bdee-8078e469752a/en-US). The application displays the transactions data stored in the database. Using the application, a user can enter new transaction values which are  saved into the database. 
 ## Demo
 This is a quick demo showing the deployed application. A higher resolution video can be found [here](https://github.com/NoraEr/aws-three-tier-webapp/blob/main/Demo/AWS_three_tier_webapp_demo.mp4)
