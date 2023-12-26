@@ -8,7 +8,7 @@ https://github.com/NoraEr/aws-three-tier-webapp/assets/121566705/6f287999-f758-4
 Demo overview:
 - We access the deployed application using the DNS name of the external load balancer endpoint.
 - Using the application, we access transactions values which are retrieved from the database and displayed as a table. We enter new transactions values which are written to the database.
-- We verify that these new transactions values are written to the database: we connect to the database instance via EC2 private instance using Session Manager. Then, we read the new transactions values from the database table using SQL.
+- We verify that these new transactions values are written to the database: we connect to the database instance via EC2 private instance using Session Manager. Then, we retrieve the new transactions values from the database table using SQL.
 
 
 ## Architecture overview 
