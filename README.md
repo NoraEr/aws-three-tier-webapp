@@ -12,7 +12,7 @@ Demo overview:
 
 
 ## Architecture overview 
-The architecture comprises a VPC with 2 availabilty zones, load balancers and autoscaling group to maintain high availability. The web server is deployed within EC2 instances in a public subnet with access to the internet via Internet Gateway. The application layer and database sits within a private subnet. The application has access to the internet via NAT Gateway. The database is only accessible via the application layer by configuring its security group.
+The architecture comprises a VPC with 2 availabilty zones, load balancers and autoscaling group to maintain high availability. The web server is deployed within EC2 instances in a public subnet with access to the internet via Internet Gateway. The application layer and database sits within a private subnet. The application has access to the internet via NAT Gateway. The database is only accessible via the application layer based on security group inbound rules.
 
 ![architecture](https://github.com/NoraEr/aws-three-tier-webapp/blob/main/architecture/three-tier-webapp-architecture.png)
 
