@@ -1,7 +1,7 @@
 # AWS Three Tier Web Application
 I deployed a three tier web application in AWS following this [workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/85cd2bb2-7f79-4e96-bdee-8078e469752a/en-US/introduction/getting-started).
 ## Demo
-
+This is a quick demo showing the deployed application. A higher resolution demo can be found [here](https://github.com/NoraEr/aws-three-tier-webapp/blob/main/Demo/AWS_three_tier_webapp_demo.mp4)
 
 https://github.com/NoraEr/aws-three-tier-webapp/assets/121566705/6f287999-f758-4e7f-bd2d-f6434206c931
 
